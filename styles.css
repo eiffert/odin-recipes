@@ -1,6 +1,6 @@
 /* styles.css */
 
-
+/* Home Page */
 .main-header,
 .text {
     font-family: 'Helvetica', sans-serif;
@@ -26,12 +26,22 @@
     letter-spacing: 1px;
 }    
 
+.sub-header {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
 }    
+
+.left {
+    width: 25%;
+}
 
 
 div {
@@ -49,9 +59,10 @@ ul {
     background-color: #004d1a;
 }
 
-li {
+li.link-bar {
     float: left;
 }
+
 
 li a {
     display: block;
@@ -65,6 +76,25 @@ li a:hover {
     background-color: #17bb4e;
 }     
 
+
+uo li.ing-list {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+ol li {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Helvetica', sans-serif;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -72,3 +102,6 @@ li a:hover {
     width: 100%;
     text-align: center;
 }
+
+/* Recipe Pages */
+
