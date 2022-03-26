@@ -1,0 +1,74 @@
+/* styles.css */
+
+
+.main-header,
+.text {
+    font-family: 'Helvetica', sans-serif;
+    color: black;  
+}
+
+.main-header {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #004d1a;
+    font-size: 40px;
+    font-weight: bold;
+    border-style: dashed;
+    padding: 10px;
+    padding-top: 20px;
+    width: 650px;
+    height: 60px;
+    margin: auto;
+}
+
+.text {
+    margin-left: 10px;
+    letter-spacing: 1px;
+}    
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}    
+
+
+div {
+    font-size: 18px;
+    font-family: 'Helvetica', sans-serif;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004d1a;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #17bb4e;
+}     
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
